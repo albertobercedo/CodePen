@@ -1,0 +1,22 @@
+.low-bar {
+
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: white;
+    background-color: hsl(232.5deg 11.76% 13.33%);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.low-bar button {
+
+    border-color: hsl(226.15deg 12.04% 57.65%);
+    cursor: pointer;
+    font-size: 1.2em;
+    width:70%;
+    color: white;
+    background-color: hsl(232, 10%, 16%);
+    padding: 15px;
+
+}

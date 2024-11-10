@@ -1,0 +1,150 @@
+.header {
+
+    background-color: black;
+    height: 75px;
+    display: grid;
+    grid-template-columns: 0.8fr 2fr 1fr 3fr;
+    align-items: center;
+
+}
+
+/*Header Left Column*/
+
+.header >.left-column >.header-logo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header >.left-column >.header-logo img {
+
+    width: 150px;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+
+}
+
+/*Header Central Column*/
+
+.header > .central-column {
+
+    margin-top: 0%;
+    color: #ffdd40;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.header > .central-column > .central-column-title h1 {
+
+    margin-bottom: 0px;
+    margin-top:0px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffdd40;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header > .central-column > .central-column-nav {
+
+padding-bottom: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header > .central-column > .central-column-nav a {
+
+    text-decoration: none;
+    font-family: "Ubuntu Condensed" , sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    color: white;
+    margin-left: 0%;
+    margin-top: 0%;
+
+}  
+
+/*Header Spark Column*/
+
+.header > .spark-column {
+
+    font-size: 120%;
+    padding-top: 12px;
+    width: 100%;
+    padding-left: 30px;
+
+}
+
+.header > .spark-column a {
+
+    text-decoration: none;
+    color: gray;
+    
+}
+
+/*Header Right Column*/
+
+.header > .right-column {
+
+    margin-top: 0px;
+    margin-right: 2%;
+    margin-left: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.header > .right-column > .content-right-nav {
+
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.header > .right-column > .content-right-nav button {
+
+    font-size: 1.1em;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 8%;
+    color: white;
+    background-color: hsl(232.5deg 11.76% 13.33%);
+    padding: 20px;
+
+}
+
+.btn:hover {
+    box-shadow: 5px 5px 30px rgba(0, 0 , 0, 1);
+}
+
+.header > .right-column a {
+
+    text-decoration: none;
+    font-size: 130%;
+    color:white;
+    display: flex;
+    align-items: center;
+
+}
+
+.header > .right-column a > #search {
+
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 30px;
+    color: grey;
+    background-color: transparent;
+
+}
